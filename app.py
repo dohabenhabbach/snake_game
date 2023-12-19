@@ -58,7 +58,7 @@ def size():
         if obj_obj["name"] == users[i]["name"]:
             temp = users[i]
 
-    users[users.index(temp)]["size"] += 1
+    users[users.index(temp)]["size"] += 2
 
     send_data = {}
     send_data["size"] = users[users.index(temp)]["size"]
